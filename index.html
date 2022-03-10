@@ -20,10 +20,10 @@
                 <nav class="section-nav">
                     <ul class="nav-ul">
                         <li>
-                            <a href="#">Gmail</a>
+                            <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
                         </li>
                         <li>
-                            <a href="#">Imágenes</a>
+                            <a href="https://www.google.com.co/imghp?hl=es&ogbl">Imágenes</a>
                         </li>
                         <li>
                             <a href="">
@@ -33,7 +33,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://github.com/Jaal97" title="GitHub">
                                 <figure class="nav_ul__icon-perfil">
                                     <img src="./assets/unnamed.png" alt="perfil">
                                 </figure>
@@ -54,14 +54,14 @@
                     <figure class="container-lupe">
                         <img src="./assets/icone-loupe-gris.png" alt="lupe">
                     </figure>
-                    <input type="text" title="Buscar">
+                    <input type="text" title="Buscar" id="inputSearch">
                 </div>
             </section>
             <section class="section-buttons">
                 <div class="buttons-container">
-                    <a href="">
-                        <input type="button" value="Buscar con Google">
-                    </a>
+                    
+                    <input type="button" value="Buscar con Google" onclick="getbutton()">
+                    
                    <a href="https://www.google.com/doodles"> 
                        <input type="button" value="Me siento con suerte">
                     </a> 
@@ -81,17 +81,18 @@
             </section>
            <section class="footer-main___container">
                 <section class="footer-about">
-                    <a href="#">Sobre Google</a>
-                    <a href="">Publicidad</a>
-                    <a href="">Negocios</a>
-                    <a href="">Cómo funciona la Búsqueda</a>
+                    <a href="https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+                    <a href="https://ads.google.com/intl/es-419_co/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                    <a href="https://smallbusiness.withgoogle.com/intl/es-419_co/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CO">Negocios</a>
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
                 </section >
                 <section class="footer-privacity">
-                    <a href="#">Privacidad</a>
-                    <a href="#">Condiciones</a>
+                    <a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                    <a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
                     <a href="#">Preferencias</a>
                 </section>
            </section>
         </footer>
+        <script src="./script/index.js"></script>
     </body>
 </html>
